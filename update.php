@@ -9,7 +9,7 @@ if ($_mysqli->connect_error) {
 
 $perintah = $_mysqli->query('SELECT * fROM 1731710047_jenis_pakaian WHERE id_jenis_pakaian="6"');
 $hasil = $perintah->fetch_assoc();
-echo "Data Awal <br/>";
+echo "Data Awal <br/>"; 
 echo "id_jenis_pakaian ".$hasil["id_jenis_pakaian"]."<br/>";
 echo "jenis_pakaian :".$hasil["jenis_pakaian"]."<br/>";
 

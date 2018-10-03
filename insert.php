@@ -12,7 +12,7 @@ echo $_mysqli->query($perintah);
 if ($perintah == true) {
 	echo "Data berhasil ditambahkan";
 }else{
-	echo "Gagal".$_mysqli->error;
+	echo "Data gagal ditambahkan".$_mysqli->error;
 }
 
 $_mysqli->close();
